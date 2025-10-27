@@ -1,3 +1,5 @@
+# © 2025 Dorayakis007 — CC BY-NC 4.0 — https://github.com/Dorayakis007/AdventOfCode
+
 import hashlib
 md5_hash:str = ""
 user_input:str = ""

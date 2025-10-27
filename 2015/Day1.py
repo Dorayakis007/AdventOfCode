@@ -1,3 +1,5 @@
+# © 2025 Dorayakis007 — CC BY-NC 4.0 — https://github.com/Dorayakis007/AdventOfCode
+
 the_input_string:str = ""
 the_input_list:list = [""]
 positive_parenthesis:int = 0
@@ -16,10 +18,10 @@ negative_parenthesis = the_input_list.count(")")
 
 total_floors = positive_parenthesis - negative_parenthesis
 
-print(total_floors)
+print("Plantas totales que ha subido:", total_floors)
 
 
-#Limpiando variables
+# Limpiando variables entre parte 1 y parte 2
 positive_parenthesis = 0
 negative_parenthesis = 0
 
@@ -35,7 +37,7 @@ while True:
 			negative_parenthesis += 1
 	
 	if(positive_parenthesis - negative_parenthesis == -1):
-		print(current_list_spot + 1)
+		print("Caracter en el cual baja al piso -1 por primera vez:", current_list_spot + 1)
 		break
 	else:
 		current_list_spot += 1
